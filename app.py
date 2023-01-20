@@ -23,4 +23,4 @@ def homepage():
     return render_template('index.html',dashboard_data=data,len = len(data))
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host = '0.0.0.0')
